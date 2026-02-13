@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <h1 class="logo">Modern Store</h1>
+    <nav>
+      <a href="index.html">Shop</a>
+      <a href="cart.html" class="cart-link">
+        Cart (<span id="cartCount">0</span>)
+      </a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Your Cart</h2>
+
+    <div id="cartItems" class="cart-page-items"></div>
+
+    <div class="cart-summary">
+      <div class="total-row">
+        <span>Total</span>
+        <strong>$<span id="cartTotal">0.00</span></strong>
+      </div>
+
+      <button id="checkoutBtn" class="primary-btn">
+        Checkout
+      </button>
+    </div>
+  </main>
+
+  <div id="successOverlay" class="success-overlay hidden">
+    <div class="success-box">
+      <h2>Order Confirmed 🎉</h2>
+      <p>Your order has been successfully placed.</p>
+      <button id="continueShopping">Continue Shopping</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
