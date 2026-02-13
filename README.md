@@ -54,12 +54,14 @@ API integration
 
 Dynamic DOM rendering
 
-live demo
-
-https://jefferspin669.github.io/Modern-Store/
 
 State management
 
 UI design
 
 Persistent storage
+
+live demo
+
+https://jefferspin669.github.io/Modern-Store/
+
