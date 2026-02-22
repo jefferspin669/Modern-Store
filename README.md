@@ -1,32 +1,32 @@
-🛍️ Modern Store — API-Driven E-Commerce Frontend
+ Modern Store — API-Driven E-Commerce Frontend
 
 Modern Store is a responsive e-commerce frontend application built with HTML, CSS, and JavaScript. The application consumes product data from a public REST API and dynamically renders an interactive shopping experience, including full cart functionality and order confirmation flow.
 
 This project focuses on asynchronous data handling, client-side state management, and clean UI design.
 
-✨ Features
+Features
 
-🔄 Fetches product data from a REST API
+ Fetches product data from a REST API
 
-🛒 Add to cart functionality
+ Add to cart functionality
 
-➕ Quantity controls (increase/decrease items)
+ Quantity controls (increase/decrease items)
 
-❌ Remove items from cart
+ Remove items from cart
 
-💾 Cart persistence using localStorage
+ Cart persistence using localStorage
 
-🧾 Separate cart page layout
+ Separate cart page layout
 
-🛍️ Empty cart state with navigation
+ Empty cart state with navigation
 
-✅ Order confirmation flow
+ Order confirmation flow
 
-📱 Fully responsive design
+ Fully responsive design
 
-⚠️ Error handling for failed API requests
+ Error handling for failed API requests
 
-🛠️ Tech Stack
+ Tech Stack
 
 HTML5
 
@@ -38,7 +38,7 @@ Fetch API
 
 LocalStorage
 
-📦 API Used
+ API Used
 
 This project consumes product data from:
 
@@ -46,7 +46,7 @@ Fake Store API
 
 The API provides product information including titles, prices, categories, images, and descriptions.
 
-🎯 Project Purpose
+ Project Purpose
 
 The goal of this project was to simulate a real-world e-commerce frontend that interacts with a backend API, demonstrating core frontend engineering skills including:
 
